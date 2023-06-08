@@ -28,4 +28,8 @@ class Drop {
     DeleteDrop(){
         return this.dotY1 > height;
     }
+
+    ModifySpeed(newStarValue){
+        this.speed = newStarValue;
+    }
 }
